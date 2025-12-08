@@ -38,7 +38,7 @@ title: "Home"
 </h2>
 
 <p style="color:#cfd8dc;">
-  Mình hiện là sinh viên năm thứ nhất chuyên ngành Quản trị Kinh doanh tại Đại học Ngoại thương.
+  Mình hiện là sinh viên năm thứ ba chuyên ngành Quản trị Kinh doanh tại Đại học Ngoại thương.
   Bên cạnh kiến thức nền tảng về kinh tế – kinh doanh, mình đặc biệt quan tâm tới:
 </p>
 
