@@ -34,7 +34,7 @@ title: "CV"
 
     <ul class="list-unstyled text-muted-soft mb-2" style="line-height:1.6;">
       <li>📍 Hà Nội, Việt Nam</li>
-      <li>🎓 K44 (2005) · Chuyên ngành: Quản trị Kinh doanh</li>
+      <li>🎓 K62 (2005) · Chuyên ngành: Quản trị Kinh doanh</li>
       <li>📧 Email:   <a
     href="https://mail.google.com/mail/?view=cm&fs=1&to=k62.2314210023@gmail.com"
     target="_blank"
