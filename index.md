@@ -9,7 +9,7 @@ title: "Home"
     Nguyễn Thị Quỳnh Chi
   </h1>
   <p class="hero-sub mb-3" style="color:#b0bec5;">
-    Sinh viên Khoa Quản trị Kinh doanh · Trường Đại học Ngoại thương (FTU) · Khóa 2005
+    Sinh viên Khoa Quản trị Kinh doanh · Trường Đại học Ngoại thương (FTU) · Khóa 62
   </p>
 
   <p class="mb-3" style="color:#cfd8dc;">

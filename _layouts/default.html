@@ -6,6 +6,18 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ site.baseurl }}/assets/images/favicon.jpg"
+  >
+  <link
+    rel="shortcut icon"
+    href="{{ site.baseurl }}/assets/images/favicon.jpg"
+  >
+
   <!-- Bootstrap CDN -->
   <link
     rel="stylesheet"
@@ -355,6 +367,47 @@
       .sidebar-card { padding: 1.5rem 1.25rem 1.7rem 1.25rem; }
       .navbar-brand { font-size: 0.82rem; }
     }
+
+    /*Hiệu ứng ánh sáng quét ngang liên tục */
+    .neon-sweep {
+      position: relative;
+      display: inline-block;
+      color: #4dd0e1;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      overflow: hidden;
+    }
+
+    /* Layer ánh sáng */
+    .neon-sweep::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -120%;
+      width: 120%;
+      height: 100%;
+
+      /* Vệt sáng gradient */
+      background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(56, 189, 248, 0.45),
+        rgba(34, 197, 94, 0.45),
+        transparent
+      );
+
+      /* Hiệu ứng mờ nhẹ */
+      filter: blur(3px);
+      animation: neonShine 3s linear infinite;
+    }
+
+    /* Chuyển động từ trái -> phải */
+    @keyframes neonShine {
+      0%   { left: -120%; }
+      100% { left: 120%; }
+    }
+
   </style>
 </head>
 <body>
@@ -363,7 +416,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <a class="navbar-brand neon-sweep" href="{{ site.baseurl }}/">
         QTKD Portfolio
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -423,7 +476,7 @@
             <div class="sidebar-title">ABOUT ME</div>
             <div class="sidebar-avatar" style="background:none; border:none; box-shadow:none; padding:0;">
             <img
-              src="{{ site.baseurl }}/assets/images/gojo.png"
+              src="{{ site.baseurl }}/assets/images/avatar.jpg"
               alt="Ảnh Nguyễn Thị Quỳnh Chi"
               style="
                 width:120px;
@@ -438,20 +491,24 @@
             />
           </div>
 
-            <div class="sidebar-name">Nguyen Thi Quynh Chi</div>
+            <div class="sidebar-name">Nguyễn Thị Quỳnh Chi</div>
             <div class="sidebar-role">
-              Sinh vien Khoa Quan tri Kinh doanh<br>
-              Truong Dai hoc Ngoai thuong (FTU)
+              Sinh viên Khoa Quản trị Kinh doanh<br>
+              Trường Đại học Ngoại thương (FTU)
             </div>
             <div class="sidebar-meta">
-              Khoa 2005 · Quan tam den kinh doanh, marketing so va phan tich du lieu.
+              Khóa 62 · Quan tâm đến kinh doanh, marketing số và phân tích dữ liệu.
             </div>
 
             <div class="sidebar-links">
-              <span class="text-muted-soft">Lien he nhanh:</span>
-              <a href="mailto:example@email.com">Email ca nhan</a>
+              <span class="text-muted-soft">Liên hệ nhanh:</span>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=k62.2314210023@gmail.com&su=Li%C3%AAn%20h%E1%BB%87%20tuy%E1%BB%83n%20d%E1%BB%A5ng&body=Ch%C3%A0o%20b%E1%BA%A1n%20Qu%E1%BB%B3nh%20Chi%2C"
+                target="_blank"
+                rel="noopener noreferrer">
+              Email cá nhân</a>
               <a href="{{ site.baseurl }}/cv">Xem CV</a>
-              <a href="{{ site.baseurl }}/projects">Du an noi bat</a>
+              <a href="{{ site.baseurl }}/projects">Dự án nổi bật</a>
             </div>
           </div>
         </aside>
