@@ -4,7 +4,9 @@ title: "Blog"
 ---
 
 <div class="d-flex align-items-center justify-content-between mb-3">
-  <h1 class="mb-0">Blog · Ghi chép học tập & suy nghĩ</h1>
+  <h1 style="font-weight:700; font-size:2.2rem; letter-spacing:-0.5px; color:#4dd0e1;">
+    Blog · Ghi chép học tập & suy nghĩ
+  </h1>
   <span class="badge-soft">Learning in public ✍️</span>
 </div>
 
@@ -14,11 +16,6 @@ title: "Blog"
 </p>
 
 ---
-
-## Bài viết nổi bật (demo)
-
-> 💡 Sau này khi em dùng đúng cấu trúc `_posts` của Jekyll, phần blog có thể tự động sinh bài viết.
-> Hiện tại, mình có thể viết tay vài “bài mẫu” để trang Blog trông sống động hơn.
 
 ### 1. Những điều đầu tiên mình học được từ Quản trị học
 
@@ -91,16 +88,4 @@ title: "Blog"
 - 3–5 ý tưởng mình thấy tâm đắc nhất
 - Một điều nhỏ mình áp dụng ngay vào cuộc sống hoặc việc học
 
-> 📚 Sau này, phần **Books** trong portfolio sẽ kết nối với Blog:
-> mỗi cuốn sách có thể đi kèm 1 bài viết ghi lại những gì mình học được.
-
 ---
-
-## Sau này Blog sẽ hoạt động “chuẩn Jekyll” thế nào?
-
-Nếu em muốn biến Blog thành một hệ thống bài viết tự động (giống các blog chuyên nghiệp), có thể dùng thư mục `_posts`:
-
-1. Tạo thư mục:
-   ```text
-   _posts/
-   ```

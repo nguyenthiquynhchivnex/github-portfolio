@@ -4,7 +4,9 @@ title: "CV"
 ---
 
 <div class="d-flex align-items-center justify-content-between mb-4">
-  <h1 class="mb-0">CV · Hồ sơ học tập & kỹ năng</h1>
+  <h1 style="font-weight:700; font-size:2.2rem; letter-spacing:-0.5px; color:#4dd0e1;">
+    CV · Hồ sơ học tập & kỹ năng
+  </h1>
   <a
     class="btn btn-primary"
     href="{{ site.baseurl }}/cv.pdf"
@@ -33,7 +35,7 @@ title: "CV"
     <ul class="list-unstyled text-muted-soft mb-2">
       <li>📍 Hà Nội, Việt Nam</li>
       <li>🎓 K44 (2005) · Chuyên ngành: Quản trị Kinh doanh</li>
-      <li>📧 Email: <a href="mailto:example@email.com">example@email.com</a></li>
+      <li>📧 Email: <a href="mailto:k62.2314210023@gmail.com">@email.com</a></li>
     </ul>
 
     <span class="badge-soft">Open to opportunities 🚀</span>
@@ -43,7 +45,7 @@ title: "CV"
 
 ---
 
-## 🎯 Mục tiêu nghề nghiệp
+## Mục tiêu nghề nghiệp
 
 > Trở thành **Business Analyst / Marketing Analyst** với tư duy logic, làm việc với dữ liệu và hiểu sâu về hành vi khách hàng để đóng góp vào các dự án thực tế.
 
@@ -53,7 +55,7 @@ title: "CV"
 
 ---
 
-## 🛠️ Kỹ năng chính
+## Kỹ năng chính
 
 <div class="row g-3">
   <div class="col-md-6">
@@ -74,7 +76,7 @@ title: "CV"
 
 ---
 
-## 📚 Học vấn
+## Học vấn
 
 **Trường Đại học Ngoại thương (FTU)**
 _Sinh viên Khoa Quản trị Kinh doanh_
@@ -93,15 +95,15 @@ Các môn quan trọng đã học:
 
 ---
 
-## 🧩 Dự án học tập & bài tập nổi bật
+## Dự án học tập & bài tập nổi bật
 
-### 📌 Phân tích hành vi tiêu dùng gen Z
+### Phân tích hành vi tiêu dùng gen Z
 
 - Thu thập dữ liệu bằng Google Form (100+ responses)
 - Làm sạch và phân tích bằng Excel
 - Trình bày báo cáo cuối kỳ
 
-### 📌 Marketing plan cho quán cà phê gần trường
+### Marketing plan cho quán cà phê gần trường
 
 - Phân tích khách hàng mục tiêu (18–25 tuổi)
 - Lên kế hoạch kênh truyền thông (TikTok, Facebook, Fanpage)
@@ -109,17 +111,15 @@ Các môn quan trọng đã học:
 
 ---
 
-## 📖 Chứng chỉ (nếu có thể thêm sau này)
+## Chứng chỉ (nếu có thể thêm sau này)
 
 - MOS Excel
 - Google Data Analytics (Coursera)
 - IELTS 6.5+ (dự kiến)
 
-> **TIP:** Em còn chưa có chứng chỉ thì cứ để mục này — sau thêm sau cũng được 👍
-
 ---
 
-## ⭐ Sở thích & cá nhân
+## Sở thích & cá nhân
 
 - Đọc sách về kinh doanh, quản trị & phát triển bản thân
 - Ghi chép kiến thức (notion / docs)
@@ -133,6 +133,6 @@ Các môn quan trọng đã học:
     href="{{ site.baseurl }}/assets/files/CV_NguyenThiQuynhChi.pdf"
     download
   >
-    📥 Tải bản PDF đầy đủ
+     Tải bản PDF đầy đủ
   </a>
 </div>
