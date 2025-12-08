@@ -1,0 +1,17 @@
+title: "Nguyen Thi Quynh Chi"
+description: "Sinh vien Khoa Quan tri Kinh doanh - Truong Dai hoc Ngoai thuong"
+author: "Nguyen Thi Quynh Chi"
+
+# Neu repo nay KHONG phai la username.github.io thi sua dung ten repo vao day
+baseurl: "" # VD: "/github-portfolio" neu deploy trong repo con
+url: "" # Co the de trong, sau nay co domain thi dien vao
+
+# Cai dat collection _pages de Jekyll build thanh cac trang
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Ngon ngu, time
+timezone: Asia/Ho_Chi_Minh
+markdown: kramdown
