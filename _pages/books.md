@@ -95,13 +95,13 @@ title: "Books"
   <div class="col-md-4 col-sm-6">
     <a
       class="book-card"
-      href="#"
+      href="https://breakdownblogs.wordpress.com/wp-content/uploads/2018/02/nha_gia_kim__paulo_coelho.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >
       <div class="book-cover-wrap">
         <img
-          src="{{ site.baseurl }}/assets/images/book-alchemist.jpg"
+          src="{{ site.baseurl }}/assets/images/nhagiakim.jpg"
           alt="Nhà giả kim"
           class="book-cover"
         />
@@ -120,13 +120,13 @@ title: "Books"
   <div class="col-md-4 col-sm-6">
     <a
       class="book-card"
-      href="#"
+      href="https://file.mentor.vn/files/lessons/file-1617004361169.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >
       <div class="book-cover-wrap">
         <img
-          src="{{ site.baseurl }}/assets/images/book-dac-nhan-tam.jpg"
+          src="{{ site.baseurl }}/assets/images/dacnhantam.jpg"
           alt="Đắc nhân tâm"
           class="book-cover"
         />
@@ -145,13 +145,13 @@ title: "Books"
   <div class="col-md-4 col-sm-6">
     <a
       class="book-card"
-      href="#"
+      href="https://mekongstartup.vn/public/upload/files/tu-tot-den-vi-dai-jim-collins.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >
       <div class="book-cover-wrap">
         <img
-          src="{{ site.baseurl }}/assets/images/book-good-to-great.jpg"
+          src="{{ site.baseurl }}/assets/images/vidai.jpg"
           alt="Từ tốt đến vĩ đại"
           class="book-cover"
         />

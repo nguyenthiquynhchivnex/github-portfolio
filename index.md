@@ -20,8 +20,8 @@ title: "Home"
 
   <div class="d-flex flex-wrap gap-2 mt-3">
     <a class="btn btn-primary" href="{{ site.baseurl }}/cv">📄 Xem CV</a>
-    <a class="btn btn-outline-light" href="{{ site.baseurl }}/projects">🚀 Xem dự án</a>
-    <a class="btn btn-outline-light" href="{{ site.baseurl }}/books">📚 Sách mình đọc</a>
+    <a class="btn btn-outline-light" href="{{ site.baseurl }}/projects"> Xem dự án</a>
+    <a class="btn btn-outline-light" href="{{ site.baseurl }}/books"> Sách mình đọc</a>
   </div>
 </div>
 

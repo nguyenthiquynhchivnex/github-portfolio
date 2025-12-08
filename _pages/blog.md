@@ -7,7 +7,7 @@ title: "Blog"
   <h1 style="font-weight:700; font-size:2.2rem; letter-spacing:-0.5px; color:#4dd0e1;">
     Blog · Ghi chép học tập & suy nghĩ
   </h1>
-  <span class="badge-soft">Learning in public ✍️</span>
+  <span class="badge-soft">Learning in public</span>
 </div>
 
 <p class="text-muted-soft mb-4">

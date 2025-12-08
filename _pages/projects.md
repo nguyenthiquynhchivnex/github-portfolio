@@ -55,7 +55,7 @@ title: "Projects"
   </div>
 
   <div class="col-md-5">
-    <img src="{{ site.baseurl }}/assets/images/projects-survey.jpg"
+    <img src="{{ site.baseurl }}/assets/images/avatar.jpg"
          alt="Khảo sát hành vi Gen Z"
          class="img-fluid rounded-4 shadow-lg" />
   </div>
@@ -69,7 +69,7 @@ title: "Projects"
 <div class="row g-4 mb-5">
 
   <div class="col-md-5">
-    <img src="{{ site.baseurl }}/assets/images/projects-cafe.jpg"
+    <img src="{{ site.baseurl }}/assets/images/presentation.jpg"
          alt="Marketing Cafe"
          class="img-fluid rounded-4 shadow-lg" />
   </div>
@@ -144,7 +144,7 @@ title: "Projects"
 
 ## IV. Định hướng
 
-> 📌 Ngắn, rõ, dễ đọc — để người xem tập trung
+> Ngắn, rõ, dễ đọc — để người xem tập trung
 
 - Tham gia cuộc thi học thuật về kinh doanh – data
 - Làm dự án phân tích dữ liệu thực tế
