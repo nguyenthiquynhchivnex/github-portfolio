@@ -9,7 +9,7 @@ title: "CV"
   </h1>
   <a
     class="btn btn-primary"
-    href="{{ site.baseurl }}/cv.pdf"
+    href="{{ site.baseurl }}/Nguyễn_Thị_Quỳnh_Chi_CV.pdf"
     download
   >
     📄 Tải xuống CV (PDF)
@@ -176,7 +176,7 @@ title: "CV"
 <div class="mt-5 text-center">
   <a
     class="btn btn-outline-light"
-    href="{{ site.baseurl }}/cv.pdf"
+    href="{{ site.baseurl }}/Nguyễn_Thị_Quỳnh_Chi_CV.pdf"
     download
   >
     📄 Tải bản PDF đầy đủ
